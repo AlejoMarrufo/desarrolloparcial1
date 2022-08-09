@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ 
+ body {
+ background:#C70039; 
+ }
+ 
+ .form-reg{
+     width: 800px;
+     background: #24303c;
+     padding: 60px;
+     margin: auto;
+     margin-top: 5px;
+     border-radius: 4px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: white;
+     box-shadow: 7px 13px 37px black;
+     align-items: center;
+ }
+ .separador{
+     height: 20px;
+     clear: both;
+ }
+ 
+.main img{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 10px;
+    float: center;
+}
+
+img{
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+ .form-reg h3{
+     font-size: 30px;
+     margin-bottom: 10px;
+     text-align: center;
+ }
+ 
+ .form-reg h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.enum1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    float: left;
+}
+.enum2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    float:right;
+}
+
+
+
+/*Fooder*/
+ .fooder{
+    background: #2f3640;
+    color: #616161;
+    font-family: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header{
+    background: black;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    margin-top: 1px;
+}
+.menu{
+    width: 900px;
+    margin: auto auto;
+}
+.menu img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 5px;
+}
+nav{
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #ffff;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+}
+nav ul li a:hover::before{
+    width: 100%;    
+}

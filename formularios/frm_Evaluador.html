@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head> 
+        <meta chatset = "UTF-8">
+        <meta name="description" content="Esta una pagina de pruebas de HTML5 y CSS3">
+        <meta name="keywords" content="HTML, CSS, JavaScript, UMG, Coban, Desarrollo, Web">
+        <meta name="author" content="John Doe">
+        <meta name="robots" content="noindex" />
+        <meta name = "viewport" content="width=devise-width, initial-scaled=1.0">
+        <meta http-equiv="X-AU-Compatible" content="ie=edge">        
+        <link rel="stylesheet" href="../css/styleform.css">
+        <title>Registro Evaluador</title>
+    </head>
+
+    <body> 
+        <header>
+            <div class="menu">
+                <img src="../img/vacuna.png" alt="">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../formularios/frm_Centro.html">Establecimientos</a></li>
+                        <li><a href="../formularios/frm_Evaluador.html">Evaluadores</a></li>
+                        <li><a href="../formularios/frm_Vacunado.html">Vacunacion</a></li>
+                        <li><a href="#">Salir</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <form class="form-reg" id="registroUsuario" method="post" action="../index.html">
+            <h4 id="msnRegistro">INGRESE SUS DATOS</h4>
+            <h3>Registro Datos de Evaluador</h3>
+            <input class="controls" type="text" name="codigo" id="codigo" placeholder="Ingrese Codigo de Evaluador" required>
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese Nombre Compelto" required>               
+            <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese Numero Telefonico" required>   
+            <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su Correo" required>
+            <br>
+            <hr>
+            <input type="hidden" name="operacion" value="registro">
+            <p><a href="../index.html" class="registro"><input class="boton" type="submit" value="Registrarme"></a>      
+        </form>         
+    </body>
+</html>

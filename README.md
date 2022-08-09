@@ -1,0 +1,1 @@
+en este repositorio se encuentra el proceso de la creacion de la pagina web solicitada, cuenta con 3 formularios de registro, uno de consulta y la vista inicial. los formularios son para el registro de los establecimientos, los evaluadores y los pacientes respectivamente, el formulario de consulta funciona para consultar el nuemro de vacunados en cada centro
